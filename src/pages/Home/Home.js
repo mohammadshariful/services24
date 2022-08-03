@@ -4,6 +4,7 @@ import HomeApplication from "./HomeApplication";
 import PeaceMind from "./PeaceMind";
 import Safe from "./Safe";
 import SameDayServices from "./SameDayServices";
+import Testimonial from "./Testimonial";
 import TrendingServices from "./TrendingServices";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Safe />
       <PeaceMind />
       <HomeApplication />
+      <Testimonial />
     </>
   );
 };
