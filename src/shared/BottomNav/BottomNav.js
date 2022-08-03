@@ -5,22 +5,22 @@ import booking from "../../assets/images/bookings.png";
 const BottomNav = () => {
   return (
     <div className="fixed bottom-0 left-0 lg:hidden z-40 ">
-      <div class="btm-nav bg-white py-2 font-semibold">
+      <div className="btm-nav bg-white py-2 font-semibold">
         <button className="text-secondary">
           <AiOutlineHome className="text-2xl" />
-          <span class="btm-nav-label">Home</span>
+          <span className="btm-nav-label">Home</span>
         </button>
         <button>
           <img src={booking} alt="" />
-          <span class="btm-nav-label">Bookings</span>
+          <span className="btm-nav-label">Bookings</span>
         </button>
         <button>
           <AiOutlineHeart className="text-2xl" />
-          <span class="btm-nav-label">Favourite</span>
+          <span className="btm-nav-label">Favourite</span>
         </button>
         <button>
           <VscAccount className="text-xl" />
-          <span class="btm-nav-label">Accounts</span>
+          <span className="btm-nav-label">Accounts</span>
         </button>
       </div>
     </div>

@@ -91,11 +91,11 @@ const BannerSection = () => {
             Home services, on demand
           </h2>
 
-          <div class="mt-4 relative w-3/5 mx-auto ">
+          <div className="mt-4 relative w-3/5 mx-auto ">
             <input
               type="text"
               placeholder="Searc for a service"
-              class="input w-full px-10 "
+              className="input w-full px-10 "
             />
             <span className="absolute top-4 left-2 pr-2">
               <BsSearch />

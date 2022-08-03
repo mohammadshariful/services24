@@ -1,5 +1,6 @@
 import React from "react";
 import BannerSection from "./BannerSection";
+import Safe from "./Safe";
 import SameDayServices from "./SameDayServices";
 import TrendingServices from "./TrendingServices";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <BannerSection />
       <TrendingServices />
       <SameDayServices />
+      <Safe />
     </>
   );
 };

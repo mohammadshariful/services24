@@ -18,7 +18,7 @@ const Menubar = () => {
           <ul className="flex justify-center items-center gap-6 font-semibold">
             <li>Blog</li>
             <li>Career</li>
-            <li tabindex="0" class="collapse collapse-arrow">
+            <li tabindex="0" className="collapse collapse-arrow">
               <span className="collapse-title">My Account</span>
             </li>
             <li className="text-xl">
