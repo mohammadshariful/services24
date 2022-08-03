@@ -1,9 +1,10 @@
+import Menubar from "./shared/Menubar/Menubar";
+
 function App() {
   return (
-    <div>
-      <h1 className="text-primary text-5xl">Hello World</h1>
+    <div className="bg-white">
+      <Menubar />
     </div>
   );
 }
-
 export default App;
