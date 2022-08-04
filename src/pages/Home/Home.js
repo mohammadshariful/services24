@@ -5,6 +5,7 @@ import PeaceMind from "./PeaceMind";
 import PeopleChoice from "./PeopleChoice";
 import Safe from "./Safe";
 import SameDayServices from "./SameDayServices";
+import Stump from "./Stump";
 import Testimonial from "./Testimonial";
 import TrendingServices from "./TrendingServices";
 
@@ -19,6 +20,7 @@ const Home = () => {
       <HomeApplication />
       <PeopleChoice />
       <Testimonial />
+      <Stump />
     </>
   );
 };
