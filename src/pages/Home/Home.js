@@ -1,6 +1,7 @@
 import React from "react";
 import BannerSection from "./BannerSection";
 import Discount from "./Discount";
+import ElectricianServices from "./ElectricianServices";
 import HomeApplication from "./HomeApplication";
 import PeaceMind from "./PeaceMind";
 import PeopleChoice from "./PeopleChoice";
@@ -21,6 +22,7 @@ const Home = () => {
       <PeaceMind />
       <HomeApplication />
       <Discount />
+      <ElectricianServices />
       <PeopleChoice />
       <Testimonial />
       <RefferLink />
