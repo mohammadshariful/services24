@@ -106,8 +106,15 @@ const BannerSection = () => {
           </p>
         </div>
       </div>
+
       <div className="w-full lg:w-1/2 ">
-        <h2 className="text-center font-semibold text-3xl">
+        <div className="lg:px-6 block sm:hidden">
+          <h2 className="text-xl font-semibold text-primary my-3 pl-2">
+            Top Offers
+          </h2>
+          <BannerSlider />
+        </div>
+        <h2 className="text-center font-semibold text-3xl hidden sm:block">
           What are you looking for?
         </h2>
         <p className="relative py-4 hidden lg:block">
@@ -127,7 +134,7 @@ const BannerSection = () => {
             );
           })}
         </div>
-        <div className="lg:px-6">
+        <div className="lg:px-6 hidden sm:block">
           <BannerSlider />
         </div>
       </div>

@@ -62,12 +62,12 @@ const Footer = () => {
           <span className="text-green-400">Contact Us</span>
           <span className="text-green-400">Download Oyebusy App</span>
         </p>
-        <div className="flex justify-center items-center gap-10 my-5">
+        <div className="flex justify-center items-center flex-col sm:flex-row gap-3 lg:gap-10 my-5 ">
           <ul>
             <li>Phone : +91 9990001089 </li>
             <li>Email : support@oyebusy.com</li>
           </ul>
-          <img src={playStore} alt="" />
+          <img className="w-36" src={playStore} alt="" />
         </div>
         <ul className="flex justify-center flex-wrap items-center gap-6 my-5">
           <li>
