@@ -5,6 +5,7 @@ import ElectricianServices from "./ElectricianServices";
 import HomeApplication from "./HomeApplication";
 import PeaceMind from "./PeaceMind";
 import PeopleChoice from "./PeopleChoice";
+import PlumberServices from "./PlumberServices";
 import RefferLink from "./RefferLink";
 import Safe from "./Safe";
 import SameDayServices from "./SameDayServices";
@@ -23,6 +24,7 @@ const Home = () => {
       <HomeApplication />
       <Discount />
       <ElectricianServices />
+      <PlumberServices />
       <PeopleChoice />
       <Testimonial />
       <RefferLink />
