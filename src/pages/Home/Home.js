@@ -2,6 +2,7 @@ import React from "react";
 import BannerSection from "./BannerSection";
 import HomeApplication from "./HomeApplication";
 import PeaceMind from "./PeaceMind";
+import PeopleChoice from "./PeopleChoice";
 import Safe from "./Safe";
 import SameDayServices from "./SameDayServices";
 import Testimonial from "./Testimonial";
@@ -16,6 +17,7 @@ const Home = () => {
       <Safe />
       <PeaceMind />
       <HomeApplication />
+      <PeopleChoice />
       <Testimonial />
     </>
   );

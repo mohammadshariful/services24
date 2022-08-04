@@ -71,22 +71,22 @@ const Footer = () => {
         </div>
         <ul className="flex justify-center flex-wrap items-center gap-6 my-5">
           <li>
-            <img className="w-8" src={instaram} alt="" />
+            <img className="w-6" src={instaram} alt="" />
           </li>
           <li>
-            <img className="w-8" src={twitter} alt="" />
+            <img className="w-6" src={twitter} alt="" />
           </li>
           <li>
-            <img className="w-8" src={linkedIn} alt="" />
+            <img className="w-6" src={linkedIn} alt="" />
           </li>
           <li>
-            <img className="w-8" src={facebook} alt="" />
+            <img className="w-6" src={facebook} alt="" />
           </li>
           <li>
-            <img className="w-8" src={youtube} alt="" />
+            <img className="w-6" src={youtube} alt="" />
           </li>
           <li>
-            <img className="w-8" src={pinterest} alt="" />
+            <img className="w-6" src={pinterest} alt="" />
           </li>
         </ul>
         <p className="text-center">
