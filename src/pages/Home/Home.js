@@ -3,6 +3,7 @@ import BannerSection from "./BannerSection";
 import HomeApplication from "./HomeApplication";
 import PeaceMind from "./PeaceMind";
 import PeopleChoice from "./PeopleChoice";
+import RefferLink from "./RefferLink";
 import Safe from "./Safe";
 import SameDayServices from "./SameDayServices";
 import Stump from "./Stump";
@@ -20,6 +21,7 @@ const Home = () => {
       <HomeApplication />
       <PeopleChoice />
       <Testimonial />
+      <RefferLink />
       <Stump />
     </>
   );
