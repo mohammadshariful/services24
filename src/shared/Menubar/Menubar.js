@@ -6,7 +6,7 @@ import playstore1 from "../../assets/images/playstore 1.png";
 const Menubar = () => {
   return (
     <nav>
-      <div className="block sm:hidden">
+      <div className="block md:hidden">
         <p tabindex="0" className="collapse collapse-arrow">
           <span className="collapse-title pl-4 flex items-center font-medium text-primary">
             <HiOutlineLocationMarker size={24} />

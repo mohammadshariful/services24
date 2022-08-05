@@ -46,7 +46,7 @@ const Testimonial = () => {
       >
         {sliderImgContainer.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-white shadow-2xl p-6 rounded-lg">
+            <div className="bg-white shadow-2xl p-6 rounded-lg hover:shadow-xl">
               <img src={cotation} alt="" />
               <p className="py-3 font-semibold">
                 Speaker/View Details Lorem ipsum dolor sit amet, consectetur

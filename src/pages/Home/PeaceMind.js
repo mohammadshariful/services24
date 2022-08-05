@@ -31,10 +31,7 @@ const PeaceMind = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center mt-4 gap-x-3">
           {serviceLayer.map((layer, index) => {
             return (
-              <div
-                key={index}
-                className="lg:w-96 flex items-center gap-2 mb-3 lg:mb-0"
-              >
+              <div key={index} className="flex items-center gap-2 mb-3 lg:mb-0">
                 <div>
                   <img src={layer.picture} alt="" />
                 </div>

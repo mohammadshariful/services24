@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 
 const BannerSlider = () => {
   const sliderImgContainer = [
@@ -19,7 +19,7 @@ const BannerSlider = () => {
   ];
   return (
     <Swiper
-      slidesPerView={1}
+      slidesPerView={2}
       spaceBetween={10}
       loop={true}
       pagination={{
@@ -39,12 +39,16 @@ const BannerSlider = () => {
           spaceBetween: 20,
         },
       }}
-      modules={[Pagination]}
+      autoplay={{
+        delay: 2000,
+        disableOnInteraction: false,
+      }}
+      modules={[Pagination, Autoplay]}
       className="mySwiper"
     >
       {sliderImgContainer.map((imgSrc, index) => (
         <SwiperSlide key={index}>
-          <img className="w-96 mx-auto" src={imgSrc.picture} alt="" />
+          <img className=" mx-auto" src={imgSrc.picture} alt="" />
         </SwiperSlide>
       ))}
     </Swiper>

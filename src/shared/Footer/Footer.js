@@ -16,7 +16,7 @@ const Footer = () => {
     >
       <section className="w-[90%] mx-auto font-normal">
         <div className="flex lg:gap-5">
-          <p>RELATED SERVICES</p>
+          <p className="mr-3">RELATED SERVICES</p>
           <ul className="flex flex-wrap gap-3">
             <li>Electrician |</li>
             <li>Plumber |</li>
@@ -36,7 +36,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex lg:gap-5 mt-3">
-          <p>TOP LOCATIONS</p>
+          <p className="mr-3">TOP LOCATIONS</p>
           <ul className="flex flex-wrap gap-3">
             <li> Delhi|</li>
             <li> Gurgaon |</li>
@@ -47,7 +47,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex lg:gap-5 mt-6 mb-3">
-          <p>About Us</p>
+          <p className="mr-3">About Us</p>
           <ul className="flex flex-wrap gap-3 lg:gap-10">
             <li>Blog</li>
             <li>Near me</li>
@@ -67,7 +67,7 @@ const Footer = () => {
             <li>Phone : +91 9990001089 </li>
             <li>Email : support@oyebusy.com</li>
           </ul>
-          <img className="w-36" src={playStore} alt="" />
+          <img className="w-28 sm:w-36" src={playStore} alt="" />
         </div>
         <ul className="flex justify-center flex-wrap items-center gap-6 my-5">
           <li>
