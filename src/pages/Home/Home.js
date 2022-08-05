@@ -4,9 +4,12 @@ import CarpenterServices from "./CarpenterServices";
 import Discount from "./Discount";
 import ElectricianServices from "./ElectricianServices";
 import HomeApplication from "./HomeApplication";
+import MostTrendingServices from "./MostTrendingServices";
+import MostUsedServices from "./MostUsedServices";
 import PeaceMind from "./PeaceMind";
 import PeopleChoice from "./PeopleChoice";
 import PlumberServices from "./PlumberServices";
+import ProfessionalServices from "./ProfessionalServices";
 import RefferLink from "./RefferLink";
 import Safe from "./Safe";
 import SameDayServices from "./SameDayServices";
@@ -21,7 +24,10 @@ const Home = () => {
       <TrendingServices />
       <SameDayServices />
       <Safe />
+      <ProfessionalServices />
+      <MostUsedServices />
       <PeaceMind />
+      <MostTrendingServices />
       <HomeApplication />
       <Discount />
       <ElectricianServices />

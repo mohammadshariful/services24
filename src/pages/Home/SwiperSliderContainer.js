@@ -3,7 +3,7 @@ const SwiperSliderContainer = ({ service }) => {
   return (
     <div className="border shadow-xl rounded-xl bg-white p-4 mt-10  h-40">
       <img
-        className="relative mt-[-40px]  mx-auto w-24"
+        className="relative mt-[-40px]  mx-auto w-24 h-24"
         src={service.picture}
         alt={service.title}
       />

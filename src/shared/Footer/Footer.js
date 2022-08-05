@@ -17,7 +17,7 @@ const Footer = () => {
       <section className="w-[90%] mx-auto font-normal">
         <div className="flex lg:gap-5">
           <p>RELATED SERVICES</p>
-          <ul className="flex flex-wrap gap-2">
+          <ul className="flex flex-wrap gap-3">
             <li>Electrician |</li>
             <li>Plumber |</li>
             <li>Carpenter |</li>
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         <div className="flex lg:gap-5 mt-3">
           <p>TOP LOCATIONS</p>
-          <ul className="flex flex-wrap gap-2">
+          <ul className="flex flex-wrap gap-3">
             <li> Delhi|</li>
             <li> Gurgaon |</li>
             <li> Noida |</li>
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div className="flex lg:gap-5 mt-6 mb-3">
           <p>About Us</p>
-          <ul className="flex flex-wrap gap-10">
+          <ul className="flex flex-wrap gap-3 lg:gap-10">
             <li>Blog</li>
             <li>Near me</li>
             <li>Careers</li>

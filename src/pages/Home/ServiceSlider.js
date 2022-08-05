@@ -33,7 +33,7 @@ const ServiceSlider = ({ services }) => {
         },
       }}
       autoplay={{
-        delay: 2000,
+        delay: Math.random() * 3000,
         disableOnInteraction: false,
       }}
       modules={[Pagination, Autoplay, Navigation]}
